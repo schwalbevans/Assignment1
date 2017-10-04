@@ -1,0 +1,24 @@
+5(a) 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 361 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/schwalbevans/Assignment1
+   36a8e55..91602fd  master -> master
+5(b) There have been 7 commits and I used the git log command, and then just counted all the commits done so far. 
+
+5(c) The last time the .gitignore file was changed on wed sep 27 16:31:42 2017, I found this information by using the git log .gitignore command 
+
+5(d)commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca and commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+5(e) If you have a new feature on your application that you want to perfect, it is good to use the branching feature, so you can have a master one, and then you can merge the feature later on. Also it's good to use branches when have a new set of the same project that you want to use, and then merge that with the original project later on.  
+
+5(f)git log shows a history of all the commits used in a project, git status shows the status of the current working tree.
+
+5(g) git log Weapon.h
+
+5(h)git log --grep=file 
+
+5(i) Inheritance is the concept of having a master class, where other subclasses can derive properties from. Polymorphism is the concept of allowing an object to have multiple different forms, ex shape class can be a circle, square or a rectctangle. Encapsulation is hwere you bundle data and functions in oop and not allow them to be misused or adjusted. 
