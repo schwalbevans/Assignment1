@@ -29,13 +29,17 @@ void simulateWeapon(Weapon * weapon, double armor) {
  */
 int main(int argc, char** argv) {
 
-    double armor = 20;
+    double armor = 30;
 
     Weapon *weapon = WeaponFactory::getInstance()->getWeapon("sword");
     simulateWeapon(weapon, armor);
     delete(weapon);
 
     weapon = WeaponFactory::getInstance()->getWeapon("spear");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+
+    weapon = WeaponFactory::getInstance()->getWeapon("axe");
     simulateWeapon(weapon, armor);
     delete(weapon);
 
