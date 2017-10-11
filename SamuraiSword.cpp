@@ -1,24 +1,25 @@
 /* 
- * File:   SimpleAxe.cpp
+ * File:   SamuraiSword.cpp
  * Author: Evan <evanschwalb@gmail.com>
  *
- * Created on October 9th, 2017, 1:57 PM
+ * Created on October 10th, 2017, 8:02 PM
  */
 
-#include "SimpleAxe.h"
-#include <iostream> 
-using namespace std; 
+#include "SamuraiSword.h"
 
 
-double SimpleAxe::hit(double armor) {
+double SamuraiSword::hit(double armor) {
     double damage; 
     if (armor > 0 && armor < 20)
     { 
       damage = hitPoints; 
     }
-    else if (armor >= 20) { 
+    else if (armor >= 20 && armor < 30) { 
         damage = hitPoints - armor;   
     } 
+    else if (armor > 30){ 
+        damage = 0; 
+    }
     if (damage < 0) {
         return 0;
     }

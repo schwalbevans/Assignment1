@@ -13,7 +13,7 @@
 
 /**
  * Defines the behavior of a Samurai Sword(hitpoint = 40, ignores armor if less then 20 
- * and produces no damage if armor is greater then 70 
+ * and produces no damage if armor is greater then 30
  * 
  * )
  */
