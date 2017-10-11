@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 On branch development
 Your branch is ahead of 'origin/development' by 2 commits.
+=======
+ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+>>>>>>> master
   (use "git push" to publish your local commits)
 nothing to commit, working directory clean
 
