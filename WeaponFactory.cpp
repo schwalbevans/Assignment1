@@ -1,6 +1,6 @@
 /* 
  * File:   WeaponFactory.cpp
- * Author: Javier <jrescobara@gmail.com>
+ * Author: Javier <jrescobara@gmail.com>cd 
  *  
  */ 
 
@@ -10,7 +10,7 @@
 #include "CommonSword.h" 
 #include "CommonSpear.h"
 #include "SimpleAxe.h"
-
+#include "CrazyRandomSword.h"
 WeaponFactory* WeaponFactory::instance = NULL;
 
 WeaponFactory * WeaponFactory::getInstance() {
@@ -31,6 +31,12 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
     if(name.compare("axe") == 0)
     { 
         return new SimpleAxe(); 
+
+    }
+    if(name.compare("crazyrandomsword") == 0)
+    { 
+        srand(time(NULL)); 
+        return new CrazyRandomSword(); 
 
     }
     throw "Invalid weapon";
