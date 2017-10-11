@@ -22,3 +22,6 @@ To https://github.com/schwalbevans/Assignment1
 5(h)git log --grep=file 
 
 5(i) Inheritance is the concept of having a master class, where other subclasses can derive properties from. Polymorphism is the concept of allowing an object to have multiple different forms, ex shape class can be a circle, square or a rectctangle. Encapsulation is hwere you bundle data and functions in oop and not allow them to be misused or adjusted. 
+
+7. The RoleGame prototype contains both polymorphism and encapsulation. It has encapsulation with it containing both public and private member variables in the 
+weapon.h. Polymorphism can be seen with the weapon class, morphing into multiple other subclass weapons, such as common sword and simple axe   
